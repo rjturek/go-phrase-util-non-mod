@@ -2,10 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/rjturek/go-phrase-util/rjtphrase"
+	"github.com/rjturek/go-phrase-util/rjtphrasenonmod"
 )
-
-var phrase1 = "Starbringizizzle"
 
 func GetPhrase() string {
 	return phrase1
@@ -13,5 +11,5 @@ func GetPhrase() string {
 
 func main() {
 	fmt.Println(GetPhrase())
-	fmt.Println(rjtphrase.GetPhrase())
+	fmt.Println(rjtphrasenonmod.GetPhrase())
 }
