@@ -1,4 +1,4 @@
-package rjtphrase
+package rjtphrasenonmod
 
 var phrase = "Far away from night-clubs and from saxophones"
 
